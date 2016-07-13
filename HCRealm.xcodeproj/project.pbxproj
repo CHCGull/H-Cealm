@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EABD04031D361A84009B5C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD04021D361A84009B5C6B /* main.m */; };
+		EABD04061D361A84009B5C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD04051D361A84009B5C6B /* AppDelegate.m */; };
+		EABD04091D361A84009B5C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD04081D361A84009B5C6B /* ViewController.m */; };
+		EABD040C1D361A84009B5C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD040A1D361A84009B5C6B /* Main.storyboard */; };
+		EABD040E1D361A84009B5C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABD040D1D361A84009B5C6B /* Assets.xcassets */; };
+		EABD04111D361A84009B5C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD040F1D361A84009B5C6B /* LaunchScreen.storyboard */; };
+		EABD041C1D361A84009B5C6B /* HCRealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD041B1D361A84009B5C6B /* HCRealmTests.m */; };
+		EABD04271D361A85009B5C6B /* HCRealmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD04261D361A85009B5C6B /* HCRealmUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EABD04181D361A84009B5C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABD03F61D361A84009B5C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABD03FD1D361A84009B5C6B;
+			remoteInfo = HCRealm;
+		};
+		EABD04231D361A85009B5C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABD03F61D361A84009B5C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABD03FD1D361A84009B5C6B;
+			remoteInfo = HCRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EABD03FE1D361A84009B5C6B /* HCRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABD04021D361A84009B5C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EABD04041D361A84009B5C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EABD04051D361A84009B5C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EABD04071D361A84009B5C6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EABD04081D361A84009B5C6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EABD040B1D361A84009B5C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABD040D1D361A84009B5C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABD04101D361A84009B5C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABD04121D361A84009B5C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABD04171D361A84009B5C6B /* HCRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABD041B1D361A84009B5C6B /* HCRealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCRealmTests.m; sourceTree = "<group>"; };
+		EABD041D1D361A84009B5C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABD04221D361A85009B5C6B /* HCRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABD04261D361A85009B5C6B /* HCRealmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCRealmUITests.m; sourceTree = "<group>"; };
+		EABD04281D361A85009B5C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABD03FB1D361A84009B5C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD04141D361A84009B5C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD041F1D361A85009B5C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EABD03F51D361A84009B5C6B = {
+			isa = PBXGroup;
+			children = (
+				EABD04001D361A84009B5C6B /* HCRealm */,
+				EABD041A1D361A84009B5C6B /* HCRealmTests */,
+				EABD04251D361A85009B5C6B /* HCRealmUITests */,
+				EABD03FF1D361A84009B5C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABD03FF1D361A84009B5C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABD03FE1D361A84009B5C6B /* HCRealm.app */,
+				EABD04171D361A84009B5C6B /* HCRealmTests.xctest */,
+				EABD04221D361A85009B5C6B /* HCRealmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABD04001D361A84009B5C6B /* HCRealm */ = {
+			isa = PBXGroup;
+			children = (
+				EABD04041D361A84009B5C6B /* AppDelegate.h */,
+				EABD04051D361A84009B5C6B /* AppDelegate.m */,
+				EABD04071D361A84009B5C6B /* ViewController.h */,
+				EABD04081D361A84009B5C6B /* ViewController.m */,
+				EABD040A1D361A84009B5C6B /* Main.storyboard */,
+				EABD040D1D361A84009B5C6B /* Assets.xcassets */,
+				EABD040F1D361A84009B5C6B /* LaunchScreen.storyboard */,
+				EABD04121D361A84009B5C6B /* Info.plist */,
+				EABD04011D361A84009B5C6B /* Supporting Files */,
+			);
+			path = HCRealm;
+			sourceTree = "<group>";
+		};
+		EABD04011D361A84009B5C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EABD04021D361A84009B5C6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EABD041A1D361A84009B5C6B /* HCRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				EABD041B1D361A84009B5C6B /* HCRealmTests.m */,
+				EABD041D1D361A84009B5C6B /* Info.plist */,
+			);
+			path = HCRealmTests;
+			sourceTree = "<group>";
+		};
+		EABD04251D361A85009B5C6B /* HCRealmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EABD04261D361A85009B5C6B /* HCRealmUITests.m */,
+				EABD04281D361A85009B5C6B /* Info.plist */,
+			);
+			path = HCRealmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABD03FD1D361A84009B5C6B /* HCRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABD042B1D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealm" */;
+			buildPhases = (
+				EABD03FA1D361A84009B5C6B /* Sources */,
+				EABD03FB1D361A84009B5C6B /* Frameworks */,
+				EABD03FC1D361A84009B5C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCRealm;
+			productName = HCRealm;
+			productReference = EABD03FE1D361A84009B5C6B /* HCRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABD04161D361A84009B5C6B /* HCRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABD042E1D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealmTests" */;
+			buildPhases = (
+				EABD04131D361A84009B5C6B /* Sources */,
+				EABD04141D361A84009B5C6B /* Frameworks */,
+				EABD04151D361A84009B5C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABD04191D361A84009B5C6B /* PBXTargetDependency */,
+			);
+			name = HCRealmTests;
+			productName = HCRealmTests;
+			productReference = EABD04171D361A84009B5C6B /* HCRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EABD04211D361A85009B5C6B /* HCRealmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABD04311D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealmUITests" */;
+			buildPhases = (
+				EABD041E1D361A85009B5C6B /* Sources */,
+				EABD041F1D361A85009B5C6B /* Frameworks */,
+				EABD04201D361A85009B5C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABD04241D361A85009B5C6B /* PBXTargetDependency */,
+			);
+			name = HCRealmUITests;
+			productName = HCRealmUITests;
+			productReference = EABD04221D361A85009B5C6B /* HCRealmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABD03F61D361A84009B5C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chc;
+				TargetAttributes = {
+					EABD03FD1D361A84009B5C6B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EABD04161D361A84009B5C6B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EABD03FD1D361A84009B5C6B;
+					};
+					EABD04211D361A85009B5C6B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EABD03FD1D361A84009B5C6B;
+					};
+				};
+			};
+			buildConfigurationList = EABD03F91D361A84009B5C6B /* Build configuration list for PBXProject "HCRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EABD03F51D361A84009B5C6B;
+			productRefGroup = EABD03FF1D361A84009B5C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABD03FD1D361A84009B5C6B /* HCRealm */,
+				EABD04161D361A84009B5C6B /* HCRealmTests */,
+				EABD04211D361A85009B5C6B /* HCRealmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABD03FC1D361A84009B5C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD04111D361A84009B5C6B /* LaunchScreen.storyboard in Resources */,
+				EABD040E1D361A84009B5C6B /* Assets.xcassets in Resources */,
+				EABD040C1D361A84009B5C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD04151D361A84009B5C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD04201D361A85009B5C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABD03FA1D361A84009B5C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD04091D361A84009B5C6B /* ViewController.m in Sources */,
+				EABD04061D361A84009B5C6B /* AppDelegate.m in Sources */,
+				EABD04031D361A84009B5C6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD04131D361A84009B5C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD041C1D361A84009B5C6B /* HCRealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD041E1D361A85009B5C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD04271D361A85009B5C6B /* HCRealmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EABD04191D361A84009B5C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABD03FD1D361A84009B5C6B /* HCRealm */;
+			targetProxy = EABD04181D361A84009B5C6B /* PBXContainerItemProxy */;
+		};
+		EABD04241D361A85009B5C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABD03FD1D361A84009B5C6B /* HCRealm */;
+			targetProxy = EABD04231D361A85009B5C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EABD040A1D361A84009B5C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABD040B1D361A84009B5C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EABD040F1D361A84009B5C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABD04101D361A84009B5C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABD04291D361A85009B5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EABD042A1D361A85009B5C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABD042C1D361A85009B5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EABD042D1D361A85009B5C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EABD042F1D361A85009B5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HCRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCRealm.app/HCRealm";
+			};
+			name = Debug;
+		};
+		EABD04301D361A85009B5C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HCRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCRealm.app/HCRealm";
+			};
+			name = Release;
+		};
+		EABD04321D361A85009B5C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HCRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HCRealm;
+			};
+			name = Debug;
+		};
+		EABD04331D361A85009B5C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HCRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.HCRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HCRealm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABD03F91D361A84009B5C6B /* Build configuration list for PBXProject "HCRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABD04291D361A85009B5C6B /* Debug */,
+				EABD042A1D361A85009B5C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABD042B1D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABD042C1D361A85009B5C6B /* Debug */,
+				EABD042D1D361A85009B5C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EABD042E1D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABD042F1D361A85009B5C6B /* Debug */,
+				EABD04301D361A85009B5C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EABD04311D361A85009B5C6B /* Build configuration list for PBXNativeTarget "HCRealmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABD04321D361A85009B5C6B /* Debug */,
+				EABD04331D361A85009B5C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABD03F61D361A84009B5C6B /* Project object */;
+}
